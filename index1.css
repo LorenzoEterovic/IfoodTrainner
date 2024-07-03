@@ -1,0 +1,38 @@
+.nav{
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.nav a {
+    float: left;
+    display: block;
+    padding: 14px 20px;
+    color: red;
+    text-align: center;
+}
+
+.sidebar{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: red;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    font-size: 25px;
+    color: white;
+}
+
+.sidebar .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
