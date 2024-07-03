@@ -36,3 +36,23 @@
     font-size: 36px;
     margin-left: 50px;
 }
+
+.search input{
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    background-color: rgb(238, 237, 237);
+    border-radius: 5%;
+}
+
+.search button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 15px;
+}
+
+.init{
+    text-align: center;
+}
