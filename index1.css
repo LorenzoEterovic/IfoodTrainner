@@ -1,5 +1,4 @@
 .nav{
-    background-color: rgb(255, 255, 255);
     overflow: hidden;
 }
 .nav a {
@@ -21,6 +20,7 @@
     overflow-x: hidden;
     transition: 0.3s;
     padding-top: 60px;
+    color: white;
 }
 
 .sidebar a {
@@ -42,17 +42,59 @@
     font-size: 17px;
     border: none;
     background-color: rgb(238, 237, 237);
-    border-radius: 5%;
+    
 }
 
-.search button{
+#btnRed{
     background-color: red;
     color: white;
     border: none;
-    padding: 15px 30px;
+    padding: 12px 25px;
     font-size: 15px;
 }
 
 .init{
     text-align: center;
+    background-image: url(desktop-background.png);
+    background-color: white;
+    background-size: 100%;
+    padding: 20px;
+    height: 700px;
+    width: 100%;
+}
+
+.init h1{
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.options{
+    text-align: center;
+    padding: 15px;
+    padding-top: 20px;
+}
+
+.options button{
+    border: solid 1px;
+    border-color: grey;
+    border-radius: 25%;
+    background-color: white;
+    padding: 10px;
+}
+
+body{
+    background-color: #f7f7f7;
+}
+
+.topBtn{
+    width: 100%;
+    height: 300px;
+    padding: 100px 50px;
+    text-align: center;
+}
+
+#resBtn{
+    height: 300px;
+    width: 350px;
+    margin-right: 50px;
 }
