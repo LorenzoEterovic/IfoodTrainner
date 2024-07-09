@@ -1,5 +1,5 @@
 .nav{
-    overflow: hidden;
+    overflow: hidden; 
 }
 .nav a {
     float: left;
@@ -51,6 +51,7 @@
     border: none;
     padding: 12px 25px;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .init{
@@ -80,6 +81,7 @@
     border-radius: 25%;
     background-color: white;
     padding: 10px;
+    cursor: pointer;
 }
 
 body{
@@ -91,10 +93,27 @@ body{
     height: 300px;
     padding: 100px 50px;
     text-align: center;
+
+}
+
+#logo{
+    background-image: url(ifood.png);
+    background-size: cover;
+    padding: 30px;
 }
 
 #resBtn{
     height: 300px;
     width: 350px;
     margin-right: 50px;
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+    border: none;
+    color: #f7f7f7;
+    font-size:30px ;
+    cursor: pointer;
+}
+
+#resBtn:hover{
+    transform: scale(1.1);
 }
